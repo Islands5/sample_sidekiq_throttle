@@ -1,0 +1,10 @@
+:concurrency: 10
+
+:limits:
+  email: 2
+  default: 2
+
+:queues:
+  - [email, 5]
+  - [default, 1]
+
